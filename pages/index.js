@@ -141,19 +141,19 @@ const Home = () => {
 											href={`${CORE_URL.MOVIE_DETAIL}?movieId=${randomMovie?.id}`}
 											passHref
 										>
-											{/* <Image
-										src={randomMovie?.image}
-										alt='image'
-										loading='lazy'
-										layout='fixed'
-										width={100}
-										height={100}
-										style={{
-											cursor: "pointer",
-											width: "100%",
-											height: windowHeight - 300,
-										}}
-									/> */}
+											<Image
+												src={randomMovie?.image}
+												alt='image'
+												loading='lazy'
+												layout='fixed'
+												width={100}
+												height={100}
+												style={{
+													cursor: "pointer",
+													width: "100%",
+													height: windowHeight - 300,
+												}}
+											/>
 										</NextLink>
 									</TabPanel>
 									<TabPanel

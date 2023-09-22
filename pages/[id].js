@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Page from "../components/Page";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import NextLink from "next/link";
